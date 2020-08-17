@@ -1,0 +1,22 @@
+@import './heading.css';
+@import './article-summary.css';
+
+.mainArticle__articleHeader {
+	grid-area: teaser;
+}
+.mainArticle__sub{
+	text-transform: capitalize;
+	color: red;
+	font-size: 12px;
+	font-weight: 800;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-right: 0.3em;
+}
+.mainArticle__readingTime{
+	text-transform: uppercase;
+	color: #ccc;
+	font-size: 12px;
+	font-weight: 600;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 1em 0;
+}

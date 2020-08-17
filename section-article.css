@@ -1,0 +1,38 @@
+.sectionArticle-article{
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    grid-column-gap: 2%;
+    justify-content: center;
+}
+.article__div{
+    display: grid;
+    justify-items: center;
+}
+.sectionArticle__header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-area: 1/1/2/5;
+    border-bottom: dotted 1px #444444;
+    margin-bottom: 4%;
+    padding-bottom: 1%;
+}
+.sectionArticle__header h4{
+    color: #dd0000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sectionArticle__header i{
+    color: #acabab;
+    margin-left: 2%;
+}
+.header__iconDiv{
+    display: flex;
+    flex: 1;
+    grid-area: 1/2/2/3;
+    justify-self: end;
+}
+.fa-arrow-circle-left{
+    margin-right: 10px;
+}
+.header__readDiv{
+    display: flex;
+}

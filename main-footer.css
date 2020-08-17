@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-footer{
+    background-color: #D7D7D7;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 0 13%;
+    padding-top: 1.25em;
+    font-size: 12px;
+    font-family: "ff-meta-serif-web-pro";
+    font-weight: 500;
+    max-width: 1920px;
+    margin: 10% auto 0;
+}
+
+.main-footer>section>nav>ul>li a{
+    color: #444444;
+    text-decoration: none;
+}
+
+.main-footer>section>nav>ul>li a:hover{
+    text-decoration: underline;
+}
+
+.main-footer-div-button>input{
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    font-size: 12px;
+}
+
+.main-footer-div-button{
+    margin-bottom: 2.5em;
+}
+.main-footer-div-button>button{
+    background-color: #f1f1f1;
+    border: none;
+    font-size: 12px;
+    color: #666;
+    padding: 5px;
+}
+
+.main-footer-div-button>button:hover{
+    cursor: pointer;
+}
+
+.main-footer>section h2{
+    color: #777777;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+.main-footer>section p{
+    color: #666666;
+    font-size: 12px;
+    margin-bottom: 2em;
+}
+
+@font-face {
+    font-family: "ff-meta-serif-web-pro";
+    src: url("https://use.typekit.net/af/8e6183/00000000000000003b9b06f2/27/l?primer=7a5a436c948772f5260024dfadc8f7cd849e1448f8bf41ba74a247e8e46f3aee&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/8e6183/00000000000000003b9b06f2/27/d?primer=7a5a436c948772f5260024dfadc8f7cd849e1448f8bf41ba74a247e8e46f3aee&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/8e6183/00000000000000003b9b06f2/27/a?primer=7a5a436c948772f5260024dfadc8f7cd849e1448f8bf41ba74a247e8e46f3aee&fvd=n5&v=3") format("opentype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: auto;
+  }
+
+ul>li{
+    list-style: none;
+}
+
+.frontpageFooter {
+    justify-self: center;
+    top: -42px;
+    position: relative;
+    box-shadow: 0 2px 2px 0 #666; 
+}
+   
+
+.main-footer-bottom{
+    box-shadow: 0 -1px 0 #c7c7c7;
+    text-align: center;
+    padding-top: 2em;
+    border-top: white solid 1px;
+    grid-area: 2/1/2/-1;
+}

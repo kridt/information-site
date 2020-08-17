@@ -1,0 +1,33 @@
+.coverPhoto {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-area: cover;
+	margin: 0;
+}
+
+.coverPhoto__caption {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	font-size: 0.73em;
+	line-height: 1.3em;
+	color: #666;
+	padding-right: 1em;
+	text-align: right;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.coverPhoto__image {
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
+
+.caption__photographer {
+	font-size: 0.8em;
+	padding-top: 0.5em;
+	color: #666;
+	font-weight: 600;
+	font-style: normal;
+}
+.fa-camera{
+	font-size: 1.4em;
+}

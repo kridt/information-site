@@ -1,0 +1,20 @@
+@import './article-header.css';
+@import './article-figure.css';
+@import './article-section.css';
+@import './article-byline.css';
+@import './article-content.css';
+
+.mainContent{
+	max-width: 940px;
+	margin: 0 auto;
+}
+.mainArticle {
+	display: grid;
+	grid-template-rows: repeat(4, auto);
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-areas:
+	". teaser teaser teaser"
+	"cover cover cover cover"
+	"infosection infosection infosection infosection"
+	"byline content content content";
+}

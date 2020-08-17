@@ -1,0 +1,7 @@
+@import './header-navigation.css';
+@import './header-section.css';
+
+.mainHeader{
+    max-width: 1920px;
+    margin: 0 auto;
+}

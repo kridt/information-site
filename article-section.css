@@ -1,0 +1,33 @@
+.articleInfo{
+    grid-area: infosection;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: Helvetica, Arial, sans-serif;
+    align-items: end;
+}
+.articleInfo__location{
+    grid-column: 1/2;
+    color: #DD0000;
+    border-bottom: 1px dotted #000;
+    margin-right: 1em;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 2em 0 0.5em;
+}
+.articleInfo__date{
+    grid-column: 2/4;
+    font-weight: 700;
+    font-size: 14px;
+    border-bottom: 1px dotted #000;
+    padding: 2em 0 0.5em;
+}
+.articleInfo__comments{
+    grid-column: 4/5;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: right;
+    border-bottom: 1px dotted #000;
+    padding: 2em 0 0.5em;
+}
+
+

@@ -1,0 +1,19 @@
+.header__navigation ul{
+    list-style-type:none;
+    display:flex;
+    justify-content: center;
+    margin: 0.8% 0;
+}
+.header__navigation li{
+    margin: 0 3%;
+}
+.header__navigation li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.header__navigation li:last-child a{
+    color: rgb(235, 43, 43);
+}
+.header__navigation a{
+    color: rgb(56, 56, 56);
+}

@@ -1,0 +1,97 @@
+
+.mainArticle__content{
+    grid-area: content;
+}
+.mainArticle__contentText{
+    font-size: 1.075em;
+    margin: 1em 0;
+    font-family: Georgia, serif;
+    line-height: 1.4em;
+}
+.mainArticle__sharebtn{
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 0.9em 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.facebook{
+    background-color: #306199;
+}
+.fa-facebook-square{
+    font-size: 1.5em;
+    padding-right: 0.4em;
+}
+.twitter{
+    background-color: #26c4f1;
+}
+.fa-twitter{
+    font-size: 1.5em;
+    padding-right: 0.4em;
+}
+.email{
+    background-color: #999;
+}
+.fa-at{
+    font-size: 1.5em;
+    padding-right: 0.4em;
+}
+.mainArticle__share{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0.3em;
+    width: 300px;
+    float: right;
+    margin: 1.15em 0 8em 2em;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.mainArticle__login{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.mainArticle__loginHeader{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.mainArticle__loginButton{
+    background-color: rgb(215, 0, 0);
+    padding: 0.7em 4.5em;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 2em 0 1.2em;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+}
+.mainArticle__subscribed{
+    font-family: Helvetica, sans-serif;
+    color: #777;
+}
+.mainArticle__subscribedLogin{
+    color: #000;
+}
+
+.mainArticle__fade{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 100px 0;
+    background-image: linear-gradient(hsla(0,0%,100%,0.2),#fff);
+}
+.mainArticle__greyText{
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
